@@ -1,14 +1,14 @@
 
 public class Foo2 {
 	
-	private int total;
+	private int subTotal;
 	
 	public Foo2(int a, int b) {
-		total = a - b;
+		subTotal = a - b;
 	}
 	
 	public int getSubtractionTotal() {
-		return total;
+		return subTotal;
 	}
 	
 	public static void main(String[] args) {
