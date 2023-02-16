@@ -7,12 +7,12 @@ public class Foo2 {
 		total = a - b;
 	}
 	
-	public int getTotal() {
+	public int getSubtractionTotal() {
 		return total;
 	}
 	
 	public static void main(String[] args) {
 		Foo2 f = new Foo2(20, 10);
-		System.out.println("The total is: " + f.getTotal());
+		System.out.println("The total is: " + f.getSubtractionTotal());
 	}
 }
