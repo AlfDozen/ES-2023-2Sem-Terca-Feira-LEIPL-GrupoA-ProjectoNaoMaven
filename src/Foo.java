@@ -1,14 +1,14 @@
 
 public class Foo {
 	
-	private int total;
+	private int sumTotal;
 	
 	public Foo(int a, int b) {
-		total = a + b;
+		sumTotal = a + b;
 	}
 	
 	public int getTotal() {
-		return total;
+		return sumTotal;
 	}
 	
 	public static void main(String[] args) {
